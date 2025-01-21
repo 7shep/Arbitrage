@@ -10,7 +10,7 @@ def check_btc_price():
     else:
         ticker = response['result']['XXBTZCAD']
         last_trade_price = ticker['c'][0]
-        print(f"Latest BTC Price (CAD): ${last_trade_price}")
+        return last_trade_price
 
 def check_eth_price():
     api = krakenex.API()
@@ -22,7 +22,7 @@ def check_eth_price():
     else:
         ticker = response['result']['XETHZCAD']
         last_trade_price = ticker['c'][0]
-        print(f"Latest ETH Price (CAD): ${last_trade_price}")
+        return last_trade_price
 
 def check_sol_price():
     api = krakenex.API()
@@ -34,7 +34,7 @@ def check_sol_price():
     else:
         ticker = response['result']['SOLCAD']
         last_trade_price = ticker['c'][0]
-        print(f"Latest SOL Price (CAD): ${last_trade_price}")
+        return last_trade_price
 
 
 if __name__ == "__main__":
