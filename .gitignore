@@ -152,11 +152,10 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# My own additions
 crypto.json
-modules/trading
-src\crypto\app.py
 src/crypto/app.py
-app.py
+src/crypto/modules/trading
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
