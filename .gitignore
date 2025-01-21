@@ -155,6 +155,8 @@ cython_debug/
 crypto.json
 modules/trading
 src\crypto\app.py
+src/crypto/app.py
+app.py
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
